@@ -90,6 +90,9 @@ Need help or want to report an issue?
 
 This project is distributed under a **proprietary license**.  
 All rights reserved.
+
+<br/>
+
 ⚠️ User Agreement
 
 By running HaxKey Verify, you automatically agree to our license terms, verification mechanism, and software usage policies.

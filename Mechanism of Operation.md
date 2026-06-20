@@ -49,7 +49,7 @@ Collects additional information:
 Packages all data into a **JSON payload** and sends it to the admin’s Discord webhook via **HTTP POST**. The screenshot is attached either as a file or as a Base64‑encoded string in the `image` field (depending on webhook format; default is `multipart/form‑data`).
 
 ### D. User Feedback
-- ✅ **Success:** Displays *“Verification request sent to the administrator.”*
+- ✅ **Success:** Displays *“Verification request sent to the administrator.”*, (REF check and move player into field)
 - ❌ **Failure:** Shows an error message and advises the user to check their network connection.
 
 ---

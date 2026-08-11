@@ -106,7 +106,7 @@ def send_screenshot_to_discord():
 
         payload = {
             'payload_json': requests.compat.json.dumps({
-                # 'content': entry.get(),  # ← nội dung từ ô nhập
+                # 'content': entry.get(),  # nội dung từ ô nhập
                 'embeds': [{
                     'title': '🔑 License Key Xác Nhận',
                     'color': 3447003,
@@ -170,8 +170,7 @@ import os
 
 app = ctk.CTk()
 
-WIN_W, WIN_H = 800, 500  # ← đổi thành kích thước cửa sổ của bạn
-
+WIN_W, WIN_H = 800, 500  
 def resource_path(relative_path):
     try:
         base_path = sys._MEIPASS
@@ -199,7 +198,7 @@ banner_label = ctk.CTkLabel(
     text=""
 )
 banner_label.pack(pady=(15, 0))
-# Frame trung tâm
+#trung tâm
 frame = ctk.CTkFrame(app, corner_radius=20)
 frame.pack(padx=40, pady=(5, 40))
 #watermark
@@ -219,7 +218,7 @@ label.pack(side="left", padx=(0, 6))
 
 entry = ctk.CTkEntry(row, placeholder_text="vd: ADY taideo")
 entry.pack(side="left")
-# Lấy nội dung đã nhập
+#nội dung đã nhập
 text = entry.get()
 
 license_text = ctk.CTkLabel(frame, text=generate_license(), font=("Consolas", 50))

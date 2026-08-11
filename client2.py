@@ -13,10 +13,9 @@ from datetime import datetime
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
-#tai: https://discordapp.com/api/webhooks/1471343934247534753/nyc2n9_c3bZJ6u-EXo4gcN-U98ndMnCptptOWnCA0388wB9-CVicA-aEDrgA9mL1dSZQ
-#vhc: https://discord.com/api/webhooks/1513030839024488468/aCsx4jLOV6eAajOY43MC8uvswd-YsuRGP5aba5geDiRli2lewOSirZrweeWnbdAtYK0y
-DISCORD_WEBHOOK2 = "https://discord.com/api/webhooks/1513033586087956572/VjU7eYqJmC0LwLq1N7spq0tIHlTvHb0cP8nWAC9_6VyrCb_iiJU5T2vB94j65zatm0_n"
-DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1513030839024488468/aCsx4jLOV6eAajOY43MC8uvswd-YsuRGP5aba5geDiRli2lewOSirZrweeWnbdAtYK0y"
+
+DISCORD_WEBHOOK2 = ""
+DISCORD_WEBHOOK = ""
 
 
 def get_machine_info():

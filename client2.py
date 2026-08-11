@@ -10,7 +10,7 @@ import requests
 from tkinter import messagebox
 import io
 from datetime import datetime
-
+#CCHO ONOI VAO XEM CHO KĨ
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 #WEBHOOK KENH PLAYERCHECKING-1(KENH DANH CHO STAFF VA ADMIN)
